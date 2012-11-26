@@ -33,27 +33,27 @@ category: problems
 
 Linux下可以通过工具otf2bdf实现从ttf、ttc字体文件到指定字体大小的bdf字体文件的转换，Ubuntu系统可以通过以下命令安装otf2bdf工具
 
-        `sudo apt-get install otf2bdf`
+        sudo apt-get install otf2bdf
 
 执行以下命令，可以将当前目录下的wqy-zeihei.ttc转换成对应的大小为32 * 32pixel的 [点阵字体][1]
 
-        `otf2bdf -p 24 wqy-zeihei.ttc -o wqy-zeiehi.bdf`
+        otf2bdf -p 24 wqy-zeihei.ttc -o wqy-zeiehi.bdf
 
 其中 **-p 24** 表示字体大小为24pt;otf2bdf工具中设定的字体大小单位为pt，而不是我们常见的px(pixel);关于pt和px的相关介绍请参见 [pt和px的区别][3]
 
 默认DPI(Dot per inch，每英寸的点数)为96的情况下，px = pt * DPI / 72，即
 
-        `px = 96 * pt / 72 = 4 * pt / 3;`
+        px = 96 * pt / 72 = 4 * pt / 3;
 
 所以要获得大小为32 * 32pixel的字体库，使用otf2bdf时，设置的 **-p** 参数为 **24** 。
 
 bdf是原始的点阵字体文件，可以通过工具bdftopcf将其转换成pcf字体文件。Ubuntu系统可以通过以下命令来安装bdftopcf工具
 
-        `sudo apt-get install bdftopcf`
+        sudo apt-get install bdftopcf
 
 执行以下命令可以将bdf字体文件转换成pcf字体文件，pcf字体文件是bdf字体文件的一半大小
 
-        `bdftopcf -o wqy-zeihei.pcf wqy-zeihei.bdf`
+        bdftopcf -o wqy-zeihei.pcf wqy-zeihei.bdf
 
 
 ### 后记
