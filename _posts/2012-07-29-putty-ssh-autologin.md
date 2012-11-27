@@ -41,5 +41,6 @@ Putty是我在使用SecureCRT之前使用的终端，但在使用串口时经常
 
 #####参考:
 
-* [putty openssh tips] (www.unixwiz.net/techtips/putty-openssh.html)
-* [使用密钥对让putty(ssh)自动登录] (www.chinaunix.net/old_jh/245314.html)
+1.[putty openssh tips](www.unixwiz.net/techtips/putty-openssh.html)
+
+2.[使用密钥对让putty(ssh)自动登录](www.chinaunix.net/old_jh/245314.html)
