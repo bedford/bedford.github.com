@@ -16,7 +16,7 @@ layout: post
 
 下面的安装过程以 **虚拟机 ISO安装** 方式来展开，跟安装Linux系统没什么差别，下面就主要贴图了
 
-![刚启动时的画面][/image/openmedia-install/1.png]
+![刚启动时的画面](/image/openmedia-install/1.png)
 
 
 [1]: www.openmediavault.org
