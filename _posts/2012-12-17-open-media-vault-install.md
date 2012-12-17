@@ -35,6 +35,9 @@ layout: post
 
 ------------------
 
+然后就自己安装了，安装结束后，重启即可。
+
+
 [1]: www.openmediavault.org
 [2]: www.freenas.com
 [3]: www.nas4free.org
