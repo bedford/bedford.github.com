@@ -22,6 +22,7 @@ layout: post
 ## libjpeg性能对比
 
 对比的对象及方法--解压和压缩2592 * 1920分辨率的图片，原图大小为2.63Mb
+
 * libjpeg自行编译版本
 * libjpeg Ubuntu-1204版本
 * libjpeg-turbo编译版本
@@ -35,6 +36,9 @@ layout: post
 回头再试一下同一张图片在windows上用IJL的效率如何。记得以前用DM368来压缩5Mb 2448 * 2048分辨率的图片，用时60ms左右，看来硬件加速还是牛B一点。
 
 如果你也测试了这方面的东西，希望能告诉我了一下，能及时更新。
+
+参考：
+[推荐大家使用libjpeg-turbo替代libjpeg](http://www.linuxsir.org/bbs/thread374093.html)
 
 [1]: www.ijg.org
 [2]: www.libjpeg-turbo.org
