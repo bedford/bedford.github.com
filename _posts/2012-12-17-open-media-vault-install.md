@@ -14,11 +14,26 @@ layout: post
 * 虚拟机 ISO 安装
 * U盘 安装到PC
 
-下面的安装过程以 **虚拟机 ISO安装** 方式来展开，跟安装Linux系统没什么差别，下面就主要贴图了
+下面的安装过程以 **虚拟机 ISO安装**方式来展开，其实跟安装别的Linux系统没什么差别;但如果安装的时候可以让机器上网是最佳的，该系统基于Debian，可以apt-get来安装一些更新包;如果是后期再修改source.list就稍显麻烦一些，我是不习惯nano的使用，所以安装完系统就apt-get install了vim。也支持安装相应的应用插件。
+
+
+## 贴图区
+
+----------------
 
 ![刚启动时的画面](../image/openmedia-install/1.png)
+![选择安装语言](../image/openmedia-install/2.png)
+![时区选择](../image/openmedia-install/3.png)
+![键盘布局](../image/openmedia-install/4.png)
+![管理员密码](../image/openmedia-install/5.png)
+![确认管理员密码](../image/openmedia-install/6.png)
+![选择磁盘](../image/openmedia-install/7.png)
+![确认分区](../image/openmedia-install/8.png)
+![配置源地区](../image/openmedia-install/9.png)
+![选择源镜像](../image/openmedia-install/10.png)
+![配置是否需要上网代理](../image/openmedia-install/11.png)
 
-
+------------------
 
 [1]: www.openmediavault.org
 [2]: www.freenas.com
