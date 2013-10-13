@@ -9,6 +9,8 @@ layout: post
 
 ## Ubuntu 12-04 编译ffmpeg
 
+ffmepg版本：2.0.1
+
 首先要安装yasm，ffmpeg中部分代码用汇编来实现，所以速度上还是比较快的。先安装 **yasm**，再执行 **configure**，最后 **make和make install**。
 
         sudo apt-get install yasm
@@ -19,8 +21,6 @@ layout: post
 默认情况下的configure是不支持生成动态库的，所以上面加了**--enable-shared**
 
 ## ffmpeg解码H264码流
-
-### 初始化
 
 * 注册支持的文件格式和编码、解码器
 
