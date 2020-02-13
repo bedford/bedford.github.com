@@ -93,15 +93,12 @@ Caused by: java.lang.RuntimeException: can not run elasticsearch as root
 ### bootstrap checks失败
 
 *   开发环境
-
-如果在es的配置中没有配置network.host来指定一个可用的IP地址的话，默认情况下，就绑定到localhost上，此时es会认为用户只是在开发环境下使用es，基于开箱即用的原则，虽然es此时也会进行bootstrap checks，来检查用户的配置是否与es设定的安全值相匹配，如下：
-
+    如果在es的配置中没有配置network.host来指定一个可用的IP地址的话，默认情况下，就绑定到localhost上，此时es会认为用户只是在开发环境下使用es，基于开箱即用的原则，虽然es此时也会进行bootstrap checks，来检查用户的配置是否与es设定的安全值相匹配，如下：
     *   如果匹配，则不会有warnning信息，此时es正常启动；
     *   如果不匹配，则会有warnning信息，但因为是开发环境，es依然会正常启动；
 
 *   生产环境
-
-一旦用户配置了network.host来指定一个可用的非loopback地址，那么es就会认为用户此时是在生产环境下启动es，同样会进行检查，但一旦检查不通过，直接会将前面的warnning提升为error，所以此时es会启动失败。
+    一旦用户配置了network.host来指定一个可用的非loopback地址，那么es就会认为用户此时是在生产环境下启动es，同样会进行检查，但一旦检查不通过，直接会将前面的warnning提升为error，所以此时es会启动失败。
 
 ```sh
 ERROR: [2] bootstrap checks failed
