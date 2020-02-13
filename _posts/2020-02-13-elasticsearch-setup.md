@@ -96,8 +96,8 @@ Caused by: java.lang.RuntimeException: can not run elasticsearch as root
 
 如果在es的配置中没有配置network.host来指定一个可用的IP地址的话，默认情况下，就绑定到localhost上，此时es会认为用户只是在开发环境下使用es，基于开箱即用的原则，虽然es此时也会进行bootstrap checks，来检查用户的配置是否与es设定的安全值相匹配，如下：
 
- + 如果匹配，则不会有warnning信息，此时es正常启动；
- + 如果不匹配，则会有warnning信息，但因为是开发环境，es依然会正常启动；
+    + 如果匹配，则不会有warnning信息，此时es正常启动；
+    + 如果不匹配，则会有warnning信息，但因为是开发环境，es依然会正常启动；
 
 * 生产环境
 
