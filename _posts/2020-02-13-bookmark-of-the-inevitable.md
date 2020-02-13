@@ -1,7 +1,7 @@
 ---
 title: 《必然》读书笔记
-date: 2020-02-13 15:12:52
-category: book
+date: 2020-02-13 15:02:52
+category: bookmark
 tags: bookmark
 layout: post
 
