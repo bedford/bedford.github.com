@@ -6,7 +6,7 @@
 # Site
 title: 风轻云淡
 subtitle:
-description:
+description: 个人日常记录
 author: Bedford
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
@@ -87,7 +87,7 @@ keywords: "Jekyll, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+#since: 2012
 
 # icon between year and author @Footer
 authoricon: heart
@@ -373,7 +373,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 0aae622cb3ec6c86a6fa4a8a9a670a86
 
 # Duoshuo ShortName
 #duoshuo_shortname:
