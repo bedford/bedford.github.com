@@ -23,17 +23,17 @@ layout: post
 
 ----------------
 
-![刚启动时的画面](../image/openmedia-install/1.png)
-![选择安装语言](../image/openmedia-install/2.png)
-![时区选择](../image/openmedia-install/3.png)
-![键盘布局](../image/openmedia-install/4.png)
-![管理员密码](../image/openmedia-install/5.png)
-![确认管理员密码](../image/openmedia-install/6.png)
-![选择磁盘](../image/openmedia-install/7.png)
-![确认分区](../image/openmedia-install/8.png)
-![配置源地区](../image/openmedia-install/9.png)
-![选择源镜像](../image/openmedia-install/10.png)
-![配置是否需要上网代理](../image/openmedia-install/11.png)
+![刚启动时的画面](http://111.229.152.231/images/blog/2012/openmediavault_install/1.png)
+![选择安装语言](http://111.229.152.231/images/blog/2012/openmediavault_install/2.png)
+![时区选择](http://111.229.152.231/images/blog/2012/openmediavault_install/3.png)
+![键盘布局](http://111.229.152.231/images/blog/2012/openmediavault_install/4.png)
+![管理员密码](http://111.229.152.231/images/blog/2012/openmediavault_install/5.png)
+![确认管理员密码](http://111.229.152.231/images/blog/2012/openmediavault_install/6.png)
+![选择磁盘](http://111.229.152.231/images/blog/2012/openmediavault_install/7.png)
+![确认分区](http://111.229.152.231/images/blog/2012/openmediavault_install/8.png)
+![配置源地区](http://111.229.152.231/images/blog/2012/openmediavault_install/9.png)
+![选择源镜像](http://111.229.152.231/images/blog/2012/openmediavault_install/10.png)
+![配置是否需要上网代理](http://111.229.152.231/images/blog/2012/openmediavault_install/11.png)
 
 ------------------
 
