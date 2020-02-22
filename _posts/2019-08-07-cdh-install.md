@@ -932,7 +932,7 @@ tcp 0 0 0.0.0.0:7180 0.0.0.0:* LISTEN 70376/java
 
 ### 5.4 配置cdh
 
-* 通过浏览器访问 <http://44.54.11.38:7180> 访问CM
+* 通过浏览器访问 http://ip:7180 访问CM (ip为安装cm的机器的IP地址)
 
 ![CM登录页](<http://111.229.152.231/images/note/2019/cdh_install/cm-login.png>)
 
@@ -1029,6 +1029,6 @@ tcp 0 0 0.0.0.0:7180 0.0.0.0:* LISTEN 70376/java
 
 ## 参考
 
-[1]Linux swappiness参数设置与内存交换(<http://blog.sina.com.cn/s/blog_13cc013b50102wskd.html>)
-[2]linux实现开机自启动脚本(<https://www.cnblogs.com/dpf-learn/p/7783314.html>)
-[3]如何在Redhat7.4安装CDH5.16.1(<https://blog.csdn.net/Hadoop_SC/article/details/84748604>)
+[1][Linux swappiness参数设置与内存交换](http://blog.sina.com.cn/s/blog_13cc013b50102wskd.html)
+[2][linux实现开机自启动脚本](https://www.cnblogs.com/dpf-learn/p/7783314.html)
+[3][如何在Redhat7.4安装CDH5.16.1](https://blog.csdn.net/Hadoop_SC/article/details/84748604)
