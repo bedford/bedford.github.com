@@ -1029,6 +1029,6 @@ tcp 0 0 0.0.0.0:7180 0.0.0.0:* LISTEN 70376/java
 
 ## 参考
 
-[1][Linux swappiness参数设置与内存交换](http://blog.sina.com.cn/s/blog_13cc013b50102wskd.html)
-[2][linux实现开机自启动脚本](https://www.cnblogs.com/dpf-learn/p/7783314.html)
-[3][如何在Redhat7.4安装CDH5.16.1](https://blog.csdn.net/Hadoop_SC/article/details/84748604)
+1. [Linux swappiness参数设置与内存交换](http://blog.sina.com.cn/s/blog_13cc013b50102wskd.html)
+2. [linux实现开机自启动脚本](https://www.cnblogs.com/dpf-learn/p/7783314.html)
+3. [如何在Redhat7.4安装CDH5.16.1](https://blog.csdn.net/Hadoop_SC/article/details/84748604)
