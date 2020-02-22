@@ -13,6 +13,7 @@ layout: post
 ![http_process](http://111.229.152.231/images/note/2020/http-protocol/http_process.png)
 
 在这个过程中，浏览器和服务器之间，通过 HTTP 协议（HyperText Transfer Protocol，超文本传输协议），完成两者间的信息交互通信。HTTP是TCP/IP四层模型中的应用层协议。
+![http_flow](http://111.229.152.231/images/note/2020/http-protocol/http_flow.png)
 
 当通过http发起一个请求时，应用层、传输层、网络层和链路层的相关协议依次对该请求进行包装并携带对应的首部，最终在链路层生成以太网数据包，以太网数据包通过物理介质传输给服务器，服务器接收到数据包以后，然后再一层一层采用对应的协议进行拆包，最后把应用层数据交给服务程序处理。
 
@@ -60,14 +61,20 @@ HTTP/1.1 增加了持久连接（keep-alive）的方法，只要任意一端没�
 HTTP协议交互的信息称为HTTP报文，客户端发出的HTTP报文称为请求报文，服务器端返回的报文称为响应报文。HTTP报文由多行数据构成，多行之间以（CF+LF）作为换行符来区隔。
 
 ### 请求报文
+
 请示报文的结构如下图所示：
 ![request](http://111.229.152.231/images/note/2020/http-protocol/request.png)
+
 * 请求行的组成：请求方法 + 空格 ＋ URL ＋ 空格 ＋ 协议版本 ＋ 回车符 ＋ 换行符
 * 请求头部的组成（请求头部可以由多行组成）：头部字段名: + 值 +  回车符 ＋ 换行符
 * 空行：
 * 请求数据（即body部分，可以为空）
+
 ### 响应报文
-![request](http://111.229.152.231/images/note/2020/http-protocol/response.png)
+
+响应报文的结构如下图所示：
+![response](http://111.229.152.231/images/note/2020/http-protocol/response.png)
+
 * 响应行的组成：协议版本 + 空格 ＋ 状态码 ＋ 空格 ＋ 原因描述说明 ＋ 回车符 ＋ 换行符
 * 响应头部的组成（响应头部可以由多行组成）：头部字段名: + 值 +  回车符 ＋ 换行符
 * 空行：
