@@ -112,3 +112,7 @@ data = ReqParams(1, 2).__dict__
 result = requests.get('http://127.0.0.1', params=data)
 ```
 
+## 参考
+1. [Python-requests模块详解](https://www.cnblogs.com/lanyinhao/p/9634742.html)
+2. [Requests: HTTP for Humans](https://requests.readthedocs.io/en/master/)
+
