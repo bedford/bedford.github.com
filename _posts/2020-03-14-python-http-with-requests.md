@@ -112,7 +112,21 @@ data = ReqParams(1, 2).__dict__
 result = requests.get('http://127.0.0.1', params=data)
 ```
 
+## 三、Session
+经常很多请求只有在登录后才能进行，实现登录效果一般的做法是执法登录请求，然后从返回结果中提取sessionid放入自定义cookie中。
+
+requests提供了更简单的方法，直接使用 requests.Session 类请求即可，其保持登录是保留之前请求中服务端通过 set-cookie 等设置的参数。
+
+```python
+s = Session()
+url='http://docs.python-requests.org/en/master/'
+
+# 所有方法和直接使用requests时一样用即可
+s.get(url)
+```
+
 ## 参考
 1. [Python-requests模块详解](https://www.cnblogs.com/lanyinhao/p/9634742.html)
 2. [Requests: HTTP for Humans](https://requests.readthedocs.io/en/master/)
+3. [Requests高级用法](https://2.python-requests.org/zh_CN/latest/user/advanced.html#advanced)
 
